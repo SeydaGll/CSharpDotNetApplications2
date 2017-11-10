@@ -1,0 +1,6 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\GenericReportEx\GenericReportEx\bin\Debug\GenericReportEx.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\GenericReportEx\GenericReportEx\bin\Debug\GenericReportEx.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\GenericReportEx\GenericReportEx\bin\Debug\GenericReportEx.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\GenericReportEx\GenericReportEx\obj\Debug\GenericReportEx.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\GenericReportEx\GenericReportEx\obj\Debug\GenericReportEx.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\GenericReportEx\GenericReportEx\obj\Debug\GenericReportEx.pdb

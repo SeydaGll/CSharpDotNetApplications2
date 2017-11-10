@@ -1,0 +1,6 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Methods\Methods\bin\Debug\Methods.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Methods\Methods\bin\Debug\Methods.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Methods\Methods\bin\Debug\Methods.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Methods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Methods\Methods\obj\Debug\Methods.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Methods\Methods\obj\Debug\Methods.pdb

@@ -1,0 +1,25 @@
+LINQ
+class metod harýcýnde birþey deðil. .net 3.5 versiyonuyla gelmiþ olan güncelleme
+.net frameworkun bir parçasý
+.net 3.5 ile gelen LINQ idi
+.net içerisindeki bütün objelerimizi yine .net in içerisindeki bir sorgulama diliyle 
+sorgulayabilelim
+T-SQL diliyle önceden sql i sorgulayabiliyduk
+biz c# kullanýyosak bide sql diliyle uðraþmayalým dediler. biz c# ile sorgularýmýzý 
+yazalým. .net onu otomatik olarak sql kodlarona çevirip göndersin sql servera ve gelen 
+oradaki verileride alýp benim oluþturduðum class larýma byte etsin yani nesneleri oluþturup
+class ýmýn yüklesn verileri bana class olarak versin
+bende sadece uygulamanýn sadece uygulama etki alanýyla uðraþayým
+data tarafýyla uðraþmayým diye ortaya çýktý
+linq asdece sql dilini sorgulamak için yapýlmadý
+kendi oluþturduðumuz biz listeniz var diyelim öðrenci listesi bunuda sorgulayabiliyosunuz
+bir xml dosyanýz var bunu da linq ile sorgulayabiliyosunuz
+linq te kendi içerisinde parçalara ayrýlýyor. linq to xml- linq to sql gibi..
+
+biz linq i öðrencez önce
+linqtosql ile .net dünyasýna orm de girdi
+ORM( object relational mapping), nesnelrinizi verileriniz ile map lenmesi olayý. 
+benim bir verim var bu xml de olabilir sql de olabilir..oradaki verileri getirip 
+benim uygulamam içerisindeki bulunan class la denkleþtirilmesi ,
+eþleþtirilmesi gibi düþünebiliriz 
+

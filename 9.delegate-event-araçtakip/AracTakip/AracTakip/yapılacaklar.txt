@@ -1,0 +1,28 @@
+﻿benim kendime ait bir sınıfım var ve ben bu sınıfa bir olay yazmak istiyorum?
+Araçların plakaları sistemde kayıtlıdır.
+Bir servis tarafından araçların her 3 saniyede sürat verisi gelir
+aracın hızı 90 km/ h  üzerinde ise ekrana uyarı verilir
+aracın hızı listbox da her 3 saniyede bir gösterilir.
+tabi bunu yapmak için biz bir servis kullanmıcaz ama servis yerine random bir şekilde 0 ile 150-160 aralığında sayı üreten bir tane sınıf yazıcaz..bir random sayı ürettiricez buna.oradan gelen
+bizim aracımızın hızına sürekli eşitleniyor olucaz.. böylelikle sanki gerçek bir araba da varmış hızlanıyormuş gibi servisden bu veriyi alıyomuşz gibi bir simulasyon gerçekleştiricez
+burada ihtiyacımız olan böyle bir uygulama yazmak için ?
+
+Ihtiyaçlar:
+1)Araçları hafızada tanımlayabilmemiz için ARAÇ SINIFI,araç sınıfının içerisinde de arabanın plaka numarasının geçiyor olması lazım özellik olarak yani hızını bilmem lazım
+2) Aracın hızınnın değiştiğini de takıp ediyor olmam lazım. Arac hızı değişti eventi lazım.
+			Arac Sınıfı
+			plaka no
+			hız
+			arac hız değişti eventi
+
+peki event nasıl yazılır ?
+Event tarafı?
+1)öncelikle benim aracın hızı değiştiği zaman bu olaya abone olanlara arabanın plakasını ve bu arabanın yeni hızını bildiren bir event argüman sınıfına ihtiyaç var
+ AracEventArgs isimli sınıf geliştirilecek.. bu sınıf içerisinde arabanın plakası ve arabanın yeni hızının ne olduğunu söyleyecek
+2) ARac sınıfının içerisinde ben bir event oluşturacaksam bana bir temsilci lazım..çünkü arac sınıfının içerisinde oluşturmak istediğim hız değişti eventi temsilcilerden türeyecek..temsilciler
+hafızada metodların referanslarını tutuyordu ve ben temsilciyi tetiklediğim anda ona bağlı olan bütün metodlar tetikleniyordu..benim istediğimde tam olarak bu. nasıl bir buton click olayına ben 
+gidipte bir metodu üye yapıyordum, burdada aynı şekilde aracın hız değişti olayına bir metodu üye yapacağım. bunun için bu event in bir delegeye ihtiyacı var
+ AracEventHandler isimli delegate geliştirilcek
+3) Arac sınıfı geliştirilcek
+4) HızDegisti olayına abone olup tetiklenecek..
+

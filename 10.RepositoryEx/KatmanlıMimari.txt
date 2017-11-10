@@ -1,0 +1,63 @@
+KATMANLI MÝMARÝ ÝLE ÇALIÞICAZ..
+RP.Data .. data katmanýný ele almak istiyorum burda..data iþlemlerini ele alýcaz
+RP.Business iþ kurallarýmýn iþlediði katman
+RP.WinApp görsel katmanýmýz.. exe dosyamýzý çýkartacak olan katmanýmýz da bu..
+
+Benim RP.WinApp katmaný RP.Data katmanýný tanýmasýn..data katmanýyla herhangi bir iþi olmasýn istiyorum.. neden ? çünkü ben data katmanýný yarýn deðiþtirebilim..bugün entity framework 
+ile yazýyorum yarýn linq to sql olabilir..farklý bir orm aracý olabilir yada daha eskiye dönük ado.net le çalýþmak isteyebilirim..Burda katmanlarýn mümkün olduðunca birbirine gevþek baðlamak
+zorundayým..bunu nasýl yapýcam?.. bunu yaparken interface lerden yararlanýcam.
+sað týklayýp manage nuget pacahge dan burdan indirebilirsin yada pachage manager konsolu açýp Install-Pachage entityframework diyoruz ve kuruyoruz..artýk bundan sonra yapacaðýmýz 
+modellerimizi yazmak..data ya sað týklayýp class oluþturuyoruz..category ve product sýnýflarýmýzý oluþturduk..datacontext sýnýfýmýzý oluþturdukk
+
+pachage manager console dan enable-migration yapýyoruz..migration açýldý..yeni bir migration ekleyip Add-migration init diyip, update-database ediyor ve database mizi oluþturuyoruz.. 
+database mizn oluþturulmasý için bir tane migration eklemiþ oluyoruz..
+
+herþeyiyle database mizi oluþturduk. gttik sql serverdan category ve ürünler ekledik.. 2 kategori her kategori de 2 ürünümüz bulunuyor..
+
+bizim burda farklý farklý oluþturduðumuz assembly lerimiz var.. bizim bu assembly lerin birbirleriyle haberleþebilmeleri için referans almalarý gerekir.. yapýmýz gereði data katmaný
+direk database baðlancak,getirdiði verileri business layera aktarýcak, business layer ise iþ kurallarý varsa iþleticek ve windows application ile haberleþecek..böylelikle benim windows
+application ým hiçbir zaman data nýn içerisindeki entityframework kodlarýndan haberdar olmayacak..o halde gidiyorum business katmanýma sað týklayýp add referans tan data yý ekliyorum.. 
+böylelikle benim business katmaným data katmanýyla haberleþebilir hale geldi..
+
+business katmanýndaki class1 adýný deðiþtirerek genericrepository dedik..burda yapmak istediðim normalde ben insert update delete iþlemleri için ben gider datacontext in örneðini
+alýrým..daha sonra bu datacontext örneði içerisine 4 iþlemin 4 ünü de gerçekleþtiririm..bu genericrepository katmaným benim ona vermiþ olduðum entity ile ,bu category yada product olabilir,
+ilgili datacontext ini oluþtursun,ve bu datacontext üzerinde bu 4 iþlemi yürütebilsin istiyorum.. bundan dolayý burayý generic hale getiriyorum öncelikle <> ..GenericRepository<T> oldu
+ve where t:class diyerek illaki bu T nin class olmasý þartýný koyduk yani bir enum yada struct giibi bir yapýyý T den geçiremesinler..burda da entityframework ün dbcontext ini kullanacaðým
+için entityframework ü de business katmanýna kurmam gerekiyor.. daha önce data katmanýna kurmuþtuk..Product ile çalýþmak istiyosam T Product olucak, Category ile çalýþmak istiyosam T Category 
+olucak..
+
+repository yi yazmaya baþlayalým. ben repository içerisine ekleme güncelleme silme ve listeleme metodlarýný yazmalýyým1..
+entityframework te söyle bir þey vardý.. ya Ctx.ctageories yada product ile çalýþýcaksam ctx.products dicez . mesela listelemek istiyosam ctx.products.tolist diyebilirim...
+ama çalýþma zamanýnda mesela ben burayý generic yaptýðým için <T> bunun product mý category mý yada baþka nesne mi olduðunu bilemem..o yüzden ctx.set metodunu kullanýcam. bu set metodu
+geriye dbset döndürüyor. yani eðer sen bu set metodunu generic olarak kullanýpta içerisine T dersen , Dbset T döndürür.DbSet<Tentity> DÖNDÜRÜR..Dbset neydi.. bizim RPData da Category 
+mizde Product ýmýzda DBset türünden oluþturulmuþ.. yani eðer bu genericrepository sýnýfý Category ile çalýþýrsa  burdan geriye DBset<Category> gelicek..
+bu business katmanýný getall metodunu anlamak için windows katmanýnda kullanmaya çalýþýcam ama win tarafýnda kullanabilmem için win uygulamamýn business katmanýný referans almam lazým..ben
+butona týkladýðým zaman grid nesnemin içerisinde category ler gözüksün.. 
+
+bu yapýyý iyileþtirelim..win tarafýnda datayý kullanmak istemiyodum ama entity lerime ulaþmak için mecburen onu alacaktým..burda mesela bir Rap API projesi olabilir,MVC uygulamasý olabilir,
+bir win phone uygulamasý yada IOS uygulamasý olabilir.. bunlarýn hepsinin bu entity nesnelerine ihtiyacý var .. o zaman ben bu entity lerimi bu data katmanndan ayýrayým..hemen yeni bir proje 
+daha ekliyorum..ve product ve category i RP.entity içerisine atýyorum..entity lerinde entity özellliði taþýmasý için de entityframework ü bu rp.entity e kurulumunu yapýyorum..
+
+var query = db.Where(q=>q.ProductName=="iphone")    ben q=>q.ProductName=="iphone" bu geçen sorguyu metodumdan içeriye parametre olarak almak istiyorum.. bunun için data .net in 3.5
+versiyonuyla gelen expression dan faydalanýcam..yani o lambda ifadelerini yazabilmemizi saðlayan sýnýfýmýz..bu system.linq.expression dan geliyor..
+
+--bu yapý ne yapamaz??
+burda yaptýðýmýz olay þu oldu.. biz win app katmanýnda sadece kendi yazýðýmýz business katmanýný kullanýyoruz..yarýn ben þunu yapabilirim.. business katmanýnda generic repository
+gördüðünüz gibi entityframework ü kullanýyor..ben buraya gelip bu genericrepositpry sýnýfýnýn birebir aynýsýný , adý genericrepository t olur,oluþturup ama onun linq to sql ile
+çalýþanýný yazabilirim..yada nhiber net isimli farklý bir orm aracý daha var .net dünyasýnýn dýþýnda. nhiber net versiyonuyla çalýþacak olanýný yazabilrim.. böylece ne olur benim win katmaným
+generic repository nýn adý ayný içerisindeki getall() getbyfilter() gibi metodlar ayný isimler hiç deðiþmiyo.. içine aldýðý parametreler , döndüðü tipler hep ayný ve entityframewrok le
+hiç alakasý yok içine aldýðý tipiyle gerye döndüðü tipinde entityframework le hiç alaksý yok.. bundan dolayý projenin geriye kalanýnda hiç bir deðiþiliklik yapmadan ben bunu nhiber neti kulla
+nýr hale getirebilirim..yada linq to sql kullanýr hale getirebilrim..artýk böyle bir avantajým da var..
+
+--bu yapý nerde takýlýr ?
+ben genericrepository diyrum,ama mesela kategorisi þu olan ürünleri listele diye bir sorgu isteyebilrim.. bu sorguya cevap verebilecek bir yapý deðil bu..bana bütün kategorileri getir
+adý þu olan kategoriyi getir..kategori ýd si þu olaný getir..sil,listele gibi iþlemleri yapyor aama kategori adý kitap olan ürünleri getir,bunu yapamaz yada daha spesifik sorgularý
+yerine getirebilcek bir yapý deðil..transaction iþlemlerini çözümleyemez.. mesela bir category nesnesi oluþturdum, categori nesnesi içerisine 3 tanede product ekledim..gittim add metodumu
+kullanarak repostory me category mi gönderdim.. normalde kategoriyi ekleyip 3 tanede product ý da ekleyebilmesi lazým.. fakat o anda kategori eklendiði anda sql server da bir hata oluþtu.. 
+baðlantý kesildi diyelim .. kategori ekli kalýr ürünler eklenmemiþ olur..ve bu geri döndürülemez..ama ben bunu bir transaction a baðlasaydým böyle olmazdý.. bu transaction ýda uygulama katma
+nýndan database e gitmeden yönetebilrim.. bunun haricinde hep ctx.savechange() in tekrar etmesi söz konusu.. bu kodu tekrar ettirmememiz lazým.. kayýt iþlemlerinin hepsi tek bir noktadan
+yönetilebilsin.. sobnra belki benim projemde 2. bir tane daha datacontext nesnesi olucak.. burdaki datacontext belli..RPData ile çalýþýyor.. bunun öyle bir yapý olmasý lazým ki datacontext
+in ne olduðunu ben söyleyim,entitynin de ne olduðunu ben söyleyim..burda sadece entity nin ne oldðunu ( T ) ben söylüyorum.. ama datacontext in ne olcaðýný ben söylemiyorum..artý
+burda ben entity nin Yani T nesnesinin bir class olabileceðini söylemiþim.. form 1 in altýnda þunu yapsaydým ne olucaktý
+GenericRepository<TextBox> repo = new GenericRepository<TextBox>();.. hata vermedi ama iyide textbox sýnýfýnýn repository si mi olur ? benim datacontext im için de DbSet<TextBox> diye birþey
+var mý? yok.. büyük bir yanlýþ.. buna þuanda izin veriyor.. bunu kýsýtlayabilmem lazým..yani buradaki entity tipini özelleþtirebiliyor olmam lazým..

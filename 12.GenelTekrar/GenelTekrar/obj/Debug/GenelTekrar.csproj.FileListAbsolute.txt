@@ -1,0 +1,9 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\bin\Debug\GenelTekrar.exe.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\bin\Debug\GenelTekrar.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\bin\Debug\GenelTekrar.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\bin\Debug\Cdr.DataLayer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\bin\Debug\Cdr.DataLayer.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\obj\Debug\GenelTekrar.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\obj\Debug\GenelTekrar.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\obj\Debug\GenelTekrar.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\GenelTekrar\obj\Debug\GenelTekrar.pdb

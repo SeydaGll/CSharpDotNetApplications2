@@ -1,0 +1,52 @@
+bit metod generic olabileceði gibi bir sýnýfta generic olabilir.neden generic olur?
+ben bir uygulama geliþtiriyorum . bu uygulama içerisinde bir sýnýfým var ve bu sýnýf benim için veritabaný iþlemlerini yapýyor..ekle sil güncelle gibi. bu arkdaþ bunlarý yaparken benm
+ürünlerimi ekleyip çýkartýyo
+düþününki veritabanýna baðlanýyoruz ekliyoruz siliyoruz çýkarýyoruz bölüyoruz..bütün iþlemleri yapýyoruz.. ben bbu programý yazdým bitirdim müþteriye teslim ettim. 6 ay sonra müþteri
+geldi dediki ürünleri ekliyoruz ama biz ürünlerin artýk kategorilerini de tutmak istiyoruz.. ne yapmam lazým.. bir kere benim category isminde yeni bir class yazmam lazým.ekledim
+artýk kategorinin de veritabanýna eklenmesi,silinmesi güncellenmesi vs gibi bir sürü iþlemi var.. böyle bir durumda napýcam.. o zaman bunlarý gerçekleþtirecek bir repository daha yazmma
+lazým..yani repository de urun için yaptýðým bütün iþlemleri kategori için de tekrarlamam gerekiyor..buna bir çözüm bulmalýyým.. gelipte bu iþlemleri bir daha kategori için yapamam hatta
+müþteri bugün kategori istediyse bu adam yarýn öbür gün benden stock ister cari ister .. her birisi tamam birer tane POCO nesne yazýcam iþte ürün kategori cari gibi ama herbirisi için
+bir tane de repository yazmayla ben bu iþle baþ edemem..sonra baktým generic diye bir yapý var.. bu yapý derki : sen istersen bulundupun sýnýfý yada sýnýfýn içindeki metodu ya da hem sýnýfý
+hem metodlarý tamamýyla bir sýnýfla çalýþacak þekilde düzenleyebilirsin artý genele açabilirsin..generic yani..þöyle. sen gelburaya T de diyo.. repository<T>.. bu T dediðin þeyi içerde kullan..
+böyle bir yapý oluþtur.. böylelikle sen her türlü bu sýnýfý sadece tek bir nesne için deðil birçok nesne çin kullanabilirsin ama tabi bakýn bazý sorunlarda çýkýyo.. ben new T() dediðim
+zaman bu T NÝN ÝNSTANCE ALINABÝLÝR birþey olmasý lazým diyo.o zaman ben þunu derim.. 
+Repository<T> where T:new() bu T bir nesne örneðidir demek.. yani new ile üretilmiþ bir nesnedir demek T.. bakýn alttakinin sýkýntýsýda gitti
+ben böyle yaptýðým zaman ne oluyor ?
+T:new() eðer bunu yazmazsam T bir muamma. T herþey olabilir. .net içerisinde new keyword ünü bir nesne örneði oluþturmak için kullanýrsýnýz..new yazmak nasýl aklýma geliyor.. kendimi
+derlicek bir compiler gibi düþünüyorum..o hiç biey bilmiyor eðer ben T dersem bu T class, abstractclass olabilir siz abstarct class ý new ile türetemezsiniz, bunu yazdýðýnýz zaman herþey 
+olabilir anlamýna geliyor..T new ile türetilen birþey olablir..new ile türetebileceðim herþey olabilir yada..
+abstarct bir sýnýf oluþturalým..
+            Repository<Urun> repo = new Repository<Urun>();
+
+            Repository<Personel> personel = new Repository<Personel>();  bu geçmez çünkü personel abstarct
+
+hatta olayý daha da abartabiliriz.. benim bu veritabaný nesnelerimin hepsi bir interface den türesin..IEntity olsun adýda..
+
+public class Repository<T> where T : IEntity,new() 
+böyle bir durumda kategori de geçmez çünkü interface i implement etmiyor
+
+kullanmaya gelince repoyu kategori tipiyle üretirsem ;
+repo.ekle() dediðim zaman Kategori varlik yani kategori tipinden varlýk ister
+
+böylelikle ben birçok POCO nesnem için tek bir tane generic sýnýf yazýp hepsi için iþlemler ayný zaten ekle sil güncelle vs ki repositoy de yazmýþtýk daha önce hatýrlarsanýz,
+bütün iþlerimizi tek sýnýf üzerinden yürütebiliyoruz.. .net içerisinde de bunun çok güzel örnekleri var
+List<T>
+List<string> sList = new List<String>  sadece string ile çalýþan bir liste olmuþ oluyo elinizde.
+sList.Add() sizden string isteyecektir.. generic mantýðýda bu þekilde dir.
+
+INTERFACE
+içerisinde eriþim belirteci olmayan,bir takým üyeler barýndýrabiliyor..field barýndýramaz..prop olucak.. metod yazýyosanýz gövdesi olmaz.. astract lardaki gibi..bunlar bir sözleþmedir aslýnda
+ingilizce deki can do, yababilir,edebilir gibi anlam taþýr uyguladýðýnýz sýnýflarda..Urun:IEntity burda Urun þunuda yapabilir, Urun þuna da sahiptir..gibi bir zorlayýcý yada ifade koymak
+istiyosanýz buna interface le çözüm üreteblirsiniz.. bu ýnterface i uygulayanlarýn hepsi içerisinde Id isimli bir prop barýndýrýr demiþ olduk
+
+bu sayede ben neye sahip olmuþ oluyorum..repository m de tek bir tane varlikgetir metodu yazdýðým zaman int id olmak zorunda demiþtim..id olucak ama gelen T eðer IEntity yi implement
+etmeseydi ben id si dýþardan gelen id ye eþit olan diye bir sorgu yazamadým..bakýn artýk ben T tipinden üreyen herhangi bir nesne için ben öyle bir sorguda yazabilirim
+
+public T VarlikGetir(int id)   // bir tane ürün getirsin
+        {
+			T nesne = new T();
+			nesne.Id burda bu Id nin olduðunu garanti eden ne? IEntity..bu sayede bende lambda expression lar yazýyoduk hatýrlarsanýz repositoryde þöyle
+			     where(q=>q.Id==id )  Id eþitse dýþardan gelen Id ye.. buradaki q.Id nin gelebiliyor olmasýný sebebi Ientity..IEntity olamasaydý T nin içinde bu ýd nin olup olmadýðýný bilemicektik
+            return new T();
+        }
+		bunun gibi durumlarda kullanmýþ olduðumuz sözleþmelerimiz

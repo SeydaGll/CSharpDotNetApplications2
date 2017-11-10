@@ -1,0 +1,11 @@
+ayný isimde 2 tane farklý proje baþlatýrsan herhangi bir sorun olmaz..çünkü bizim baþlattýðýmýz herbir proje için her bir derleme sýrasýnda oluþturulan dll yada exe dosyalarýnýz için özel 
+bir private key oluþturuyor .net.. böylelikle bu projeyi götürüpte bir baþkasýnýn bilgisayarýnda çalýþtýrmak istediðinde global assembly cash miz içerisinde benzersiz bir  isme sahip oluyor..
+her ne kadar isimleri birbirinin aynýsý olsada o arkada oluþturulan benzersiz serial key yada private key birbirinden benzersiz olacaðýndan ayrý ayrý projeler nesneler olduðu anlamýna geliyor
+..oda burda mý tutuluyor? .net içerisinde bir tane küçük exe dosyasý var o exe dosyasý biz built yaparken çalýþýr ve otomatik olarak imzayý atýp dll miz içerisine gömüyor..
+
+guid nedir ? benzersiz bir takým harfler, rakamlar var. bu uzunlukta bir deðeri dünya üzerinde aynýsýný birebir oluþturabilme ihtimali milyarlarda 1.. bu tür numaralara ihtiyac duyduðumuzda biz .net içerisindeki guid sýnýfýný 
+kullanabiliriz..burdaki guid attribute dur..
+var str = Guid.NewGuid().ToString();
+benzersiz numara üretmek, benzersiz kimlikleri üretmek adýna kullanýyoruz.. mesela bir e-ticaret uygulamasý geliþtiriyorum.. milyonlarca günlük ziyaretçi alýyor..
+mesela 4 milyon ziyaretçi alan bir sitedeki ziyaretçiler sepetine birþeyler ekliyor ve ben bu sepetin ýd sini hangi tipten tutmalýyým.. guid dýr.. 128 bitlik benzersiz bir numara
+sürekli üretiyor..*** 

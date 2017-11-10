@@ -1,0 +1,6 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\Cdr.DataLayer\bin\Debug\Cdr.DataLayer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\Cdr.DataLayer\bin\Debug\Cdr.DataLayer.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\Cdr.DataLayer\obj\Debug\Cdr.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\Cdr.DataLayer\obj\Debug\Cdr.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\Cdr.DataLayer\obj\Debug\Cdr.DataLayer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\GenelTekrar\Cdr.DataLayer\obj\Debug\Cdr.DataLayer.pdb

@@ -1,0 +1,5 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\parameter\parameter\bin\Debug\parameter.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\parameter\parameter\bin\Debug\parameter.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\parameter\parameter\bin\Debug\parameter.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\parameter\parameter\obj\Debug\parameter.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\parameter\parameter\obj\Debug\parameter.pdb

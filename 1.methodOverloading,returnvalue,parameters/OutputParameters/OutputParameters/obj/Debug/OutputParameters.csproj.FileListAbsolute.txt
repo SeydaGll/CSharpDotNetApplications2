@@ -1,0 +1,6 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\OutputParameters\OutputParameters\bin\Debug\OutputParameters.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\OutputParameters\OutputParameters\bin\Debug\OutputParameters.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\OutputParameters\OutputParameters\bin\Debug\OutputParameters.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\OutputParameters\OutputParameters\obj\Debug\OutputParameters.pdb

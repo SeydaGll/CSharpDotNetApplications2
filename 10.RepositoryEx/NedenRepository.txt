@@ -1,0 +1,14 @@
+repository neden kullanayým? 
+daha az ve daha temiz kod yazmak istiyosanýz repository pattern ý kullanabilirsiniz..nesne yönelimli programlamanýn amaçlarýndan
+en önemlisi ayný kodu tekrar etmemek,daha az kod yazýp daha çok iþ yapabiliyor olmak..
+benzer bir çok nesne için ayný iþlevsellikleri yerine getirecek bir takým sýnýflar yazmaktansa bir tane yere yazýp daha birçok 
+sýnýfta bunu kullanabiliyor olmak bizim için yegane temel..bunun için generic yapýyý gerekiyor.. repository i de yine 
+generic yapýyla birlikte kullanýp zamandan da tasarruf edebilicez.kodumuz çok daha anlaþýlýr hale gelicek..
+
+Bir uygulama geliþtirdiniz..diyelim ki bu uygulamada 50 tane tablo var veri tabanýnda.. entity framework kullanýyosunuz
+code first geliþtirme yapýyosunuz.. bu ne demek ? 50 tane min class ýnýz var.. ve bu class larýn her biri için 4 temel
+iþlemi yapýyorsunuzdur..bunlar select,insert,delete,update yani listelemek,eklemek,silmek,güncellemek..50*4 dediðiniz zaman
+sizin 200 tane metod yazabilmeniz lazým bunlarý yapabilen ve bu 200 metodu toplamda 50 tane farklý sýnýfn içerisinde yapýyor 
+olmanýz gerekiyor.. bu iþlemleri daha ortak bir hale getirebilirsiniz.. nihayet bu iþlemlerin hepsinde 4 temel iþlem var.
+bu operasyonlara baktýðýnýzda içerisinde tek deðiþen þey entity framework tarafýnda entity lerimin adý yani varlýklarýmýn adý deðiþiyor.
+geriye kalan herþey ayný. madem öyle ben bunlarýn hepsini generic bir yapý içerisinde ele alabilirim. buda benim projemde kolay okunabilir olmasý ve az kod yazýlmasýný saðlayacak..

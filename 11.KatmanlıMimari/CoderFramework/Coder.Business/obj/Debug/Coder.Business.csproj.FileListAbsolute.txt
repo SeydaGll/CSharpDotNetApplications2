@@ -1,0 +1,16 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.Business.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.Business.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.DataAccess.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Core.Entities.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.Core.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\EntityFramework.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.DataAccess.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.DataAccess.dll.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Core.Entities.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.Core.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\Coder.Core.dll.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\bin\Debug\EntityFramework.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\obj\Debug\Coder.Business.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\obj\Debug\Coder.Business.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\obj\Debug\Coder.Business.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Business\obj\Debug\Coder.Business.pdb

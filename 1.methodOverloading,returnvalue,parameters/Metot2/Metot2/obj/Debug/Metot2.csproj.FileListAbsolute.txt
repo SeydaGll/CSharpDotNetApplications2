@@ -1,0 +1,6 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Metot2\Metot2\bin\Debug\Metot2.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Metot2\Metot2\bin\Debug\Metot2.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Metot2\Metot2\bin\Debug\Metot2.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Metot2\Metot2\obj\Debug\Metot2.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Metot2\Metot2\obj\Debug\Metot2.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Metot2\Metot2\obj\Debug\Metot2.pdb

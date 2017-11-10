@@ -1,0 +1,6 @@
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\VKIApp\VKIApp\bin\Debug\VKIApp.exe.config
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\VKIApp\VKIApp\bin\Debug\VKIApp.exe
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\VKIApp\VKIApp\bin\Debug\VKIApp.pdb
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\VKIApp\VKIApp\obj\Debug\VKIApp.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\VKIApp\VKIApp\obj\Debug\VKIApp.exe
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\VKIApp\VKIApp\obj\Debug\VKIApp.pdb

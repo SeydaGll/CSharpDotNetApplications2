@@ -1,0 +1,14 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\WinFormEFex.exe.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\WinFormEFex.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\WinFormEFex.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\EntityFramework.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\EntityFramework.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.Properties.Resources.resources
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.csproj.GenerateResource.Cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\WinFormEFex\WinFormEFex\obj\Debug\WinFormEFex.Form1.resources

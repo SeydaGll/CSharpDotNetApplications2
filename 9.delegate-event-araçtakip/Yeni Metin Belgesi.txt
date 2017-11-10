@@ -1,0 +1,28 @@
+biz deðiþken tanýmlarýz
+int  sayi=5; diyip istediðim zaman bu deðere ulaþmak için sayi referansýný kullaýyorum
+böylelikle c# benim hafýzada sayi diye sakladýðým dðer isteniyor gidiyo o sayýyý nereye sakladýysa o deðeri okuyup bana getiriyordu
+delegate nedir ?  bu þekilde deðerleri saklamak için deðil de metodlarý hafýza üzerinde referans edebilmek için kullandýðýmýz
+bir temsilci.. temsil ettiði þeyde metodlardýr.. 
+iþ kuralým gereði iki metodu da arka arkaya tetiklemek istiyorum. birþey olduðu zaman bu iki metodda tetiklensin. ben bu iki
+tetiklenmesini nasýl saðlayabilirm. belkide bu metodlar uygulama içerisinde ayný sýnýftadeðil, hatta farklý farklý assembly 
+ler içerisinde de olabilr. yani baþka bir projenin baþka bir bölümünde olabilir. mesela data katmanýnda olabilir, iþ katmanýnda
+yada görsel katmanda olabilr.
+
+delegate .. benim bu metodlarýmýn hafýza da bir listesi tutulup ben o listeyi tetiklediðim zaman o listeye üye olan bütün 
+metolarýn çalýþtýrýlmasýnýn saðlanmasý .. 
+
+mesela windows formun var. bu formun aktip olduðu zaman birþeyler yapmak istiyosun. mesela üzerindeki gridi yenilemek
+istiyosun..düþün ki bu formun üzerinde grid var, müþteri listesini gösteriyor. ekle butonuna bastýðýnda yeni bir form açýlýp yeni
+müþterini ekliyorsun o form kapandýðý zaman diðer form daki gridin güncellennmesi lazým. bunu gibi bir iþlemi nasýl yapýcaksýn?
+yani ne zaman güncelleneceðini nereden bilecek o form. bir temsilci ile bunu saðlayabilirsin. bütün uygulamada GLOBAL olarak
+bir iþlem gerçekleþtiðinde baþka bir iþlemin çalýþmasýný saðlayabilirsin..
+
+ben bunu otomatiðe baðlayým. bir iþlem olduðu zaman eðer ben haberdar edilmek istiyosam direk onun temsilcisine dicem. onun
+olayýna abone olup o iþ olduðu zaman haberdar olabilrim..
+
+this.button1.Click += new System.EventHandler(this.Button_Click); ... çift týkladýðýmýz zaman geliyor.bir temsilciye
+deðer atamaya benziyor.. Click bir sýnýftaki Olay yani event tir.
+event yani olaya abone olmak.. Buton sýnýfýna gittik
+protected override void OnClick(EventArgs e); yazýyor. aslýnda biz bir olaya abone oluyoruz
+olay yani event nedir ? sýnýflarýn içerisinde bir takým iþlemler gerçekleþtiðinde dýþarýdan abone olanlara haberdar edebilmek
+için geliþtirdiðimiz yapýlar ve biz olaylarýmýzý delegate ler den yani temsilci tipinden  üretiriz..

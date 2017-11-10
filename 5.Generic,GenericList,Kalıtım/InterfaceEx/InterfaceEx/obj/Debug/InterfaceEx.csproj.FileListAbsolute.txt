@@ -1,0 +1,7 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\InterfaceEx\InterfaceEx\obj\Debug\InterfaceEx.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\InterfaceEx\InterfaceEx\bin\Debug\InterfaceEx.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\InterfaceEx\InterfaceEx\bin\Debug\InterfaceEx.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\InterfaceEx\InterfaceEx\bin\Debug\InterfaceEx.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\InterfaceEx\InterfaceEx\obj\Debug\InterfaceEx.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\InterfaceEx\InterfaceEx\obj\Debug\InterfaceEx.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\InterfaceEx\InterfaceEx\obj\Debug\InterfaceEx.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\Coder.Core.dll.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\Coder.Core.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\Coder.Core.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\EntityFramework.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\EntityFramework.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\obj\Debug\Coder.Core.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\obj\Debug\Coder.Core.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\obj\Debug\Coder.Core.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.Core\obj\Debug\Coder.Core.pdb

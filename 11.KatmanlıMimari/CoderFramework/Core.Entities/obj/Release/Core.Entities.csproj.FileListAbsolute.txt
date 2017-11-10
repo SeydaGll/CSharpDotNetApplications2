@@ -1,0 +1,11 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\Core.Entities.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\Core.Entities.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\Coder.Core.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\EntityFramework.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\Coder.Core.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\Coder.Core.dll.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\bin\Release\EntityFramework.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\obj\Release\Core.Entities.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\obj\Release\Core.Entities.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\obj\Release\Core.Entities.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Core.Entities\obj\Release\Core.Entities.pdb

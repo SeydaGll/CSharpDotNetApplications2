@@ -1,0 +1,57 @@
+entityframework
+.net teknolojisi ile geliþtirilen bir ORM framework üdür.( object relational mapping)
+vertanabýnýmýzdaki her bir satýrdaki verinin uygulama katmanýndaki bir nesneyle ifade edilebilmesi oradaki her tablonun 
+uygulama katmanýnda bir liste olarak ifde edebilmesi,database ýn uygulama katmanýnda bir nesne ile ifade edilebilmesi, 
+bunlar üzernde nesnel olrak çalýþabilmemiz kolylaþtýrn bir yöntemdir.ORM
+NEDEN ORM KULLANMALIYIZ?
+veri tabaný baðlantýlarýnda fayda saðlar.
+ORM yi baþka database lerde kullanmamýz izin var mý yoksa ssadec MSSQL demi ? ENTitiy framework ile 
+ORACLE,MSSQL,MYSQL,NoSQL(iliþkisel olmayan databse),MongoDb vs birçoðunda kullanabiliyorsun linq sorgulama dili kullanabiliyoruz.
+c# la yazmýþ olduðumuz query i otomatik olrak sql kodlarýna gönderip sql sunucusuna gönderiyor. detaylý sorgular
+yapabiliyorum. entityframework açýk kaynak kodlu. ben bunu indirip kendimde eklentiler ekleyebilirim 
+test etmek çok kolay
+arkasýnda microsoft var
+NEDEN KULLANMAMALIYIZ?
+entity kullanmayý bilmiyosan performans sorunlarý yaþarsýn,çünkü otomatik olarak sql kodu üretiliyor.
+.ama sen veritabýnýndaki store proceduru nude entity framework ile çaðýrabilirsin, yada sql koduna kendin müdahale  edebilirsin 
+entity farmework le bu sayede performans sorunlarý aþýlýr.. ado.net göre bir týk performans sorunu olabilir.
+entity framewrok ü indir beðenmediðin noktalarý deðiþtir.
+entity frame work ü iyi öðrenipte  kullanmalýyýz
+Entityframework yaklaþýmlarý..entity framework ile veri tabaný programlamasý yaparsan 3 temel yaklaþým 
+1) Database first. öncelikle database tasarlanýyor..sein daha önceden bir databse in varsa ve senin bu database deðiþtirme 
+gibi yetkiye sahip deðilsen , çalýþan canlý bir database ve bunun üzerine yazman gereken bir uygulaman var mecburen bu 
+durumda database first ü tercih edebilrisn..linq to sql de sürükle býrak yaparak rahatlýkla bütün class larýný otomatik olarak
+entity framwrokü oluþturtabiliyosun.. daha aönceden bir database varsa da biz bu ders içerisinde bunu yapýcaz code first 
+üzerinde de geliþtirebilisiniz zaten varolan database in class larýný vs kendiniz geliþtirip code first gibi de çalýþmaya 
+devam edebilirisniz. illa orm aracýný yüklemek zorunda deðilsiniz.
+
+2) Code First : öncelikle uygulama tasarlanýyor tavsiye edileni bir tane datacontext içerisinde 20 tane tablo yada daha az 
+tablo varsa bunu kullanabilrsin diyolar ama tabi biz þöyle de yapýyoruz. uygulamayý modüler bir þkeilde geliþtiriyoruz ve 
+birden fazla datacontext im oluyo. ne gibi mesela ? üyelik sistemi için bir datacontext oluþturuyorum ayný veri tabanýna baðlý
+içinde 20 den fazla tablo olmuyo,sabýrt modülü için ayrý bir tane,iarpi tarafý için ayrý bir tane, derken her birinde 2o þer
+tablo olsa zaten benim iþmi rahatlýkla görüyor.. ve karmaþayada sebep olmuyo. 
+code firstte önce kod yazýyosunöuz yani c# da class larýnýzý oluþturuyosunuz,ve çok basit bi iki satýr kod yazarak daha
+bunlarý gidip veri tabanýa otomatik olarak oluþturacak þekilde hazýr hale getirebiliyosnuz.. bir uygulama yazarken 
+hiçbir þekilde sql server ý açmýyosunuz, hiç açmadan database inizi oluþturuyosunuz, içerisine tablolarýnýzý,tablolarnýzýn
+içerisindeki constratlerinizi oluþturabiliyosunuz, 
+þuda yapýlabilir..benim uygulamam bilgisayara kurulup ilk defa çalýþtýðýnda database oluþturulsn istersen bunu da yapman 
+mümkün.. setup dosyasý içerisinde bir sql sunucusu kurulu mu yada local sql db gömmek gibi vs durumlardan bizi kurtarýyo 
+
+3) Model First : önce model tasarýmý yapýlyýr. UML tasarýmý.. büyük yapýlý projelerde kullanýlýr daha çok. 
+uygulama tasarýmý baþlamadan önce birçok analizler vs ler yapýlýr,bþrçok uml diyagramý tasarlanýr, nesnelerin birbirleri 
+arasýndaki iliþkileri vs gibi birok duruma deðinilir.. uml diyagramýndan faydalanýlarak bir model tasarlanýr,
+bu modeli siz istersen direk götürüp database skriptýný ver bana diyip db skript alýp skriptla database inizi create edebilir
+siniz..zaten ayný zamanda modeliniz sizin için uygulama katmanýndaki poko nesnelerinizde oluþturuyor olacaktýr..
+
+Poco nedir? datamodel de var olan varlýklarýmýzýýn kendi sýnýflarýmýz ile uygulama tarafýnda kullanabiliyor olmasý. 
+yani ben database tarafýndaki tablomu uygulama katmanýn da bir nesne 
+ile yönetebiliyorum. veriyi sadece üzerinde olmasý gerektiði kdar özelliðiyle saklýyosunuz. mesela linq to sql de siz bir
+örneðin customer nesnesi create ettiðiniz zaman customer içerisinde kullandýðýnýz kullanmadýðýnýz bir sürü metot property
+olabiliyo. entity framework bunþarýn hepsinden sýyrýlmýþ çok daha yalýn bir þekilde nesnelerinizi taþýyabiliyosunuz. buda ram 
+tarafýnda performans tarafýnda kolaylýk saðlýyor
+
+projeye sað týkla-Nuget manage console dan browse dan EntityFramework yazýp indirebilirsin.otomatik olarak referanslara
+entity framework eklenr.
+yada pachage manager console dan Install-Pachage EntityFramework.. daha praitk ve hýzlý.. intellisense özelliði
+burada da var.. artýk enetityframe work ile çalýþmaya baþlayabilirz.
+

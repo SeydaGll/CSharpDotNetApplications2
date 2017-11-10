@@ -1,0 +1,11 @@
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\bin\Debug\ADONetGiris.exe.config
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\bin\Debug\ADONetGiris.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\bin\Debug\ADONetGiris.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.Form1.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.Properties.Resources.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.csproj.GenerateResource.Cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.pdb
+C:\Users\DragonGTX1050\Documents\visual studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\ADONetGiris\ADONetGiris\obj\Debug\ADONetGiris.Form2.resources

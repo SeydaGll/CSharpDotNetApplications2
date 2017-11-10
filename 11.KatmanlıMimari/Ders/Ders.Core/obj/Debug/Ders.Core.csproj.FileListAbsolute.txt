@@ -1,0 +1,11 @@
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Core\bin\Debug\Ders.Core.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Core\bin\Debug\Ders.Core.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Core\obj\Debug\Ders.Core.csprojResolveAssemblyReference.cache
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Core\obj\Debug\Ders.Core.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Core\obj\Debug\Ders.Core.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Core\bin\Debug\Ders.Core.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Core\bin\Debug\Ders.Core.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Core\obj\Debug\Ders.Core.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Core\obj\Debug\Ders.Core.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Core\obj\Debug\Ders.Core.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Core\obj\Debug\Ders.Core.pdb

@@ -1,0 +1,6 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\WhatIsClass\WhatIsClass\bin\Debug\WhatIsClass.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\WhatIsClass\WhatIsClass\bin\Debug\WhatIsClass.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\WhatIsClass\WhatIsClass\bin\Debug\WhatIsClass.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\WhatIsClass\WhatIsClass\obj\Debug\WhatIsClass.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\WhatIsClass\WhatIsClass\obj\Debug\WhatIsClass.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\WhatIsClass\WhatIsClass\obj\Debug\WhatIsClass.pdb

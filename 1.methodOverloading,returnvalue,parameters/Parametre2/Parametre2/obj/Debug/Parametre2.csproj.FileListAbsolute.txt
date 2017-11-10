@@ -1,0 +1,5 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Parametre2\Parametre2\bin\Debug\Parametre2.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Parametre2\Parametre2\bin\Debug\Parametre2.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Parametre2\Parametre2\bin\Debug\Parametre2.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Parametre2\Parametre2\obj\Debug\Parametre2.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\Parametre2\Parametre2\obj\Debug\Parametre2.pdb

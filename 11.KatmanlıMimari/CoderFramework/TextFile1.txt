@@ -1,0 +1,98 @@
+bu proje de temel olarak oluþturmak istediðim 5 katman var
+ilk katmaným core katmaným..yani çekirdek katman.. nedir bu katman? görevi nedir ? bu katman içerisinde diðer bütün katmanlarýn ortak olarak kullanacaðý,eriþmek isteyecekleri yada eriþilmesi
+gereken ne varsa herþeyi bunun içerisine koyucam..
+business layer ým olucak.. iþ katmaným..repository gibi vs bir takým yapýlarým bunun içerisinde tasarlanýyor olucak
+entity lerimi oluþturacaðým bir diðer katmaným olucak.. bütün projelerde kullanýlan varlýklarý burda oluþturuyoruz..
+appliction katmaný yani görsel arayüzümüzün bulunduðu katman olucak
+
+Coder.Core, Coder.Business, Coder.DataAccess, Coder.Entities, Coder.WinApp--> bunlarý oluþturduk. bunlar arasýndaki iliþkiler nelerdir ?
+
+her uygulamada olduðu gibi bizim uygulamamýz içerisinde de bir DATABASE miz olucak..Database(MSSQL)..bizim database miz ile direk eriþim yapýcak olan katmanýmýz DataAccess layer ýmýz..**
+bu katmanýn içerisinde var olucak olan þeyler entityframework yapýlarý olucak.. entityframework code first bir yapý ile mssql ile haberleþmemizi saðlayacak ve sql server a ulaþabilen tek 
+katman dataaccess katmanýmýz.. dataaccess katmaným bu microsoft sql server la haberleþirken bir takým entitylere de ihtayac duyacak..categoriler ürünler stok cari gibi bir çok þeye
+ihtiyac duyacak.. ama tek ihtiyac duyan katman dataaccsess katmaný deðil ..kendisinden baþka daha birçok katmýnýnda bu entity lere ihtiyacý oluck..bütün varlýklarýmý entity layer içerisinde bulunduruyor
+olucam ve dataaccess katmaným entity layer ile haberleþecek..
+
+iþ katmaný?  bu katman ne yapar ? veritabaný için dataccess layeri kullanarak bizim görsel katmanda yani en son ,uç noktada ,bir ürünü eklemek silmek gibi yada kategorinin altýndaki ürünleri 
+getirebilmek gibi birçok iþlemimizi üstüne alýp kendisi taþýr..business layer bu haberleþmeleri yaparken yine entitylayer
+kullanýyor olucak.. diðer taraftan bizim birçok durumda veritabanýmýzdaki entity ler ile birebir ayný olmayan bazý iþlevselliklerimizde vardýr. mesela ben bir ekran üzerinde kategorinin
+adý, yanýnda ürünün adý, onun yanýnda stokta kaç tane var  ,onun yanýnda tedarikçisi kim gibi tek bir entity içerisinde var olmayan birçok tablodan sorgulayabileceðim bir takým verilere de 
+ihtiyac duyabilirim..bunun gibi durumlar için bu veriyi üzerinde taþýyabilecek benim ekstra bir katmana daha ihtiyacým doðabilir..data transfer objects katmaný.. ihtiyac duyarsanýz böyle 
+bir katman daha ekleyebilirisiniz..buda business layer la haberleþecek. business layer ayný  zamanda entitylayer ýda bilecek çünkü görsel katmandan business layer a bir data transfer 
+objesi gelebilir. bu datatransfer objesi içerisindeki varlýklarý dataaccess layer a gönderirken entity layer daki varlýklarý kullanýpta gönderir yada business layer bir data isteyeceði
+zaman örneðin bir tane ürün istiyo onun urunId sini dataaccess layera gönderir.. ürün bilgileri gelir hangi kategoride vs daha birçok þeyide içinde biliyosunuz.. fakat bunlarý
+o görsel katmanda göstereceðim biçime dönüþtürürken bir datatransfer object tipine çevirip görsel katmanýma bir dto nesnesi göndermiþ olabilir.. bu gibi senaryolar sýklýkla karþýlaþtýðýmýz
+durumlar..
+
+görsel katmanýmýz ? yani presentation layer yani görsel katmanýmýz.. bu katman gelen verileri datatransfer object tipinden 
+alýr.. eðer senin datatransfer object lerin yokta direk business ýnda kullanmýþ olduðu entity lerle çalýþmak istiyosa o zaman entity layer la de çalýþabilirim.. ama bunun uygun olan hali dto
+lar ile çalýþmaktýr.. sizin ekranlarýný tasarladýðýnýz, verilerini getirip üzerinde gösterdiðiniz yada kullanýcýdan veri alýp etkileþime geçtiðin katmandýr
+
+entity yani varlýk benim uygulamamdaki veritabanýnda oluþturduðum tablolarýn her bir satýrý benim için bir varlýkti ve entityframework te ben bu tür nesneleri class larý oluþturup
+bu class larýn tablo olarak görünmesini saðlýyodum ve class bana tablonun içerisindeki tek bir satýrý ifade edebilecek nesne üretiyordu .. 
+
+ben görsel katmandayken bir butona týkladýðým zaman mesela bütün ürünleri getirmek için bir tane buton var.. ben buna týkladýðým anda arka tarafta çalýþtýrýlacak
+olan metod business layer içerisindeki bir metoddur.. bu metod kendi içerisinde gidip dataaccess layer ý kullanarak veri tabanýna ulaþýr .. veri tabanýndan gelen veri yine dataaccess layer
+üzerinden entity e dönüþür, çünkü gelen veriler bize entity olarak geliyor, direk business layer a aktarýr , business layer eðer biz 
+eklemiþsek data transfer object ini, bu veri transfer nesnesi diyip, burda, business layer dan gelen entity set i yani varlýk listesini yada entityframework üzerinden database e bir sorgu gönderiliyor
+,select*from products gibi tüm ürünler gelir, bunlarýn hepsini datatransfer object tipine dönüþtürüp görsel katmana aktarýyor.. sunum katmaný yani .. 
+
+
+bu katmanlara sektörde farlý farklý isimler verildiði de olur.. dataaccess layer yerine kýsaca DAL yada DALAyer gibi.. business layer deðilde
+business logic layer yani BLL gibi.. presentation katmaný yerine WinApp yada UI katmaný yani user interface yani kullanýcý arayüzü anlamýna gelen UI Layer yazýlabilir.. 
+
+bu katmanlarý güzel bir þekilde ayrýþtýrabiliyorsanýz projenizde hiçbir zaman kod karmaþasý yaþamazsýnýz. bir
+sorun çýktýðý zaman çok hýzlý bir þekilde düzeltebilceksiniz, projeye yeni özellikler eklemek yada bir özelliði çýkarmak sizin için çok çok bait olucakk
+
+projemi geliþtirmeye core katmanýyla baþlýyorum .. core katmaným diðer bütün katmanlarýn ortak kullanabileceði classlarý içerir. bunlara daha düzenli çalýþabilmemiz için ayrý ayrý klasörler
+oluþtururuz.. mesela core üzerinde hemen bir tane klasör oluþturup adýna dataaccess diyebiliriz..neden böyle birþey yapýyorum? dataaccess katmanýna ait yazacaðým bütün ne varsa dataaccess
+klasörü içerisinde bulundurmak isterim..hemen bunun içerisine de klasör açýyorum .. peki ben veriye  hangi yöntemlerle eriþebilirim.. 1. entityframeworkü kullanabilirm.2.. NHiberNate 
+kullanabilirim..3.linq to sql olabilir. farklý farklý metodlarla ben veritabanýna baðlantý yapabilirim.. öyle bir yapý kurmalýyýým ki ben gelipte dataaccess katmaný içinde linq le de 
+baðlansam entityframework ile de baðlansam yada nhibernate de kullansam diðer katmanlarýn hiçbirisi bunlardan etkilenmemeli.. peki bu ne demek? neyi ifade ediyor? ben gelip BURADA LÝNQTOSQL
+için gerekli kodu yazarým,dataaccess içerisinde gerekli kodu yazarým,ama business, entities, winapp katmanlarý üzerinde herhangi bir çizik dahi atmam çalýþmaya devam eder uygulama.. min kod
+yazarak projenin veritabanýný komple deðþtirebilmeliyim yada veritabanýna baðlantý yapabildiðim katmaný sürekli deðiþtirebilmeliyim.. bunu saðlýcaz öncelikle..
+
+bir kere dataccess tarafýnda ben hangisini kullanýrsam kullanayým nihayetinde repository e ihtiyacým olucak..repository entityframework tede linqtosql de de nhibernate de aynýdýr.. çünkü 
+veritabanýna baðlanmayla çok alakalý deðil.. bu repository dediðimiz þeyde bizim ortak olan bütün herþeyi bulunduracak bir interface geliþtirmeye ihtiyacýmýz var.
+nedir bu IEntityRepository? repository olmak isteyen tüm diðer sýnýflarýn uygulamak zorunda olduðu bir sözleþme..eðer bir uygulama içerisidne bir sýnýf repositoy olmak istiyosa illaki IEntityRepository i
+implement edecek yani uygulayacak. . ben bunun içerisine ne zorunluluk yazarsam o zorunluluklar içerisinde barýndýrýlacak..
+
+biz uygulamanýn içinde birde entity diye birþeyden bahsediyoruz.. peki entity ne ? bir kere entity nin ne olduðunu tanýmlamam lazým.. entity nin ne yapabileceðini 
+yada ne yapamayacaðýný tanýmlamam lazým.. yada bir entity nin entity olabilmesi için birþeycikler ifade edebilmem lazým yani bak þunu þöyle yapan entity dir diyebilmem lazým
+Entities oluþturduk ve IEntity oluþturduk .. bu ne demek ?? entity olmak isteyen bunu kalýtým yapýcak demiþ olduk.. bütün entity lerinizde olmasýný istediðiniz ortak özellikler varsa 
+getirip buraya yazabilirsiniz.. ne olabilir mesela? ben bütün varlýklarýmýn içerisinde oluþturulma zamaný ve düzenleme zamaný gibi 2 tane prop olun istiyorum.. ben bütün entity lerimin içe
+risinde dispose metodu olsun istiyorum,Idisposable arayüzünü implement etsin istiyorum yani iþim bittiði zaman kendi kendini yok edebilecek bir yapým olsun istiyorum bunun gibi bütün ihtiyac
+larýnýzý bunun içerisinde bildirebilirsiniz.. 
+
+herþeyden önce ben ööyle bir repoitory yazmalýyým ki bunu kategori de kullanmalý, productta kullanmalý, customers da kullanmalý, benim projemdeki 
+bütün entityler için geçerli bir repository olabilmeli.. bunuda ancak generic geliþtirirsem saðlayabilirim.. ben repository nin içerisinde bulunmasý zorunlu olan ne varsa burda söyleyeceðim.
+Expression<Func<T,bool>>  T gelicek ve illaki gelen ifadenin sonucu bool tipinde olucak . true yada false deðer dönceksin diyo. lambda expression larda olan olay.
+T Get(Expression<Func<T, bool>> filter = null); GERÝye T tipini dönen get metodu
+
+BU uygulamanýn log lama yapmasýnýda istiyorum.. log lamada yapsýn.. hemen projeye class libary ekliyorum..
+core katmanýma geliyorum.. eðer herhangi bir sýnýf log lama iþlemi yapýcaksa  illaki bu ýnterface i implement etmiþ olsun.. core logger adýnda klasör oluþturduk
+
+bu katmanlar  haricinde bir de mesaj gönderme servisi yazmak isteyebilirsiniz.. e-mail göndersin,sms göndersin gibi ..
+
+entity yazalým.. bir nesnenin entity olabilmesi için IEntity i kalýtým yapmasý lazýmdý..IEntity core da idi.. o zaman coder.entities katmanýnýn bu core
+daki IEntity e eriþmesi lazým. entity sin referanslarýna gidip core katmanýný al diyorum
+
+Concrete nedir ? somut varlýk gibi bir anlam taþýr.. abstarct gibi soyut yapýlarda oluþturabilirsinz..ssomut bir gelirse concrete dedim. eðer soyut birþey gelirse onuda ekleyebilirz..
+veritabanýnda tabloya karþýlýk gelmeyen birþey varsa onun için farklý br klasör oluþturcam..
+
+
+core katmanýmýzda dataaccess klasör, içerisinde bir entityframework klasörümüz var..bu bizim için repository base sýnýfýný oluþturacak.. yani bir entityframework repository base sýnýfýný
+oluþturacak..tabi bir repositor yazmadan önce bizim dataaccess katmanýmýzdan kendimize ait context imiz olmasý.. context mizi inþaa edelim..burada sadece entityframework ün ihtiyacý olan 
+yapýlarý deðil ayný zamanda bu katmaný kullanacak olan diðer katmanlar içinde bir takým ýnterface lerimiz bulunacak..dataaccess tarafýnda abstract klasörümü oluþturacam burda soyut olan
+varlýklarýmý barýndýrcam.. birde concrete miz olucak.. burda da asýl varlýklarýmýzý barýndýyor olucaz..
+
+business katmanýnda asýl yapmýþ olduðumuz þey bir servis geliþtirmek.. bizim kategorilerimizi ,ürünlerimizi ve diðer bütün yapýlarýmýzý yönetecek olan servisleri geliþtirmek. bu sayede uygulamanýn
+görsel katmaný ile diðer katmanlarý aarasýndaki baðýmlýlýkta gevþeklik söz konusu olucak..
+
+
+.net in doðasý gereði siz .net dillerinden herhangi biriyle yazdýðýnýz uygulamayý 32 bit yada 64 bit þeklinde ayýrma gereksinimi duymazsýnýz. çünkü bizim yazdýðýmýz uygulamalar
+c# kodlarýndan direk binary e yani makine koduna dönüþtürülmüyordu öncelikle bir intermadiate language dediðimiz ara dile dönüþtürülüyordu ve sen o exe dosyasýný hangi pc de çalýþtýrýrsan 
+o pc ye göre x86 yada 32 bit olarak çalýþma zamanýnda tekrardan bir derlenme zamaný söz konusu.. ama eðer ben .net le deðil de c programlama ile yazýyor olsaydým o zaman 32 bit için ayrý
+64 bit için ayrý ayrý derlemeler yapmak kodlar yazmak zorundaydým hatta çoðu yerde öniþlemci deyimlerini kullanýp 64 bit ise þu þekilde deðilse þu þekilde gibi direktifler kullanmam gerekirdi.
+.net bizi tüm bu zahmetlerden kurtarýyor.. ekstra 64 yada 32 bit diye ayrým yapmýyoruz. biz geliþtirip bir kere built ediyoruz publish yapýyoruz uygulama çalýþýrken iþletim sistemini tanýyor
+ona göre 64 yada 32bit sekliyle varlýðýný sürdürüyor..

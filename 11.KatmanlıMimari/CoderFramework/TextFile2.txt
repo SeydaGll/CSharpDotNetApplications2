@@ -1,0 +1,64 @@
+
+soru:
+uygulamýzý uzaktan güncelleþtirmek istersek win app exe dosyasý sonuçta..ve dýþarýdan exe yi aldýðýmýz zaman direk bu virüs olabilir uyarýsý çýkartýyo bilgisayar.. bunu nasýl aþýyolar??
+biz uygulamamýzý geliþtirirken win app exe si dýþýndaki herþeyi dll olarak yazýyoruz..uygulamaya yeni bir özellik kazandýrmak istiyosam ,mesela sms gönderme özelliði kazan
+dýrmak, bu özelliði yine ben bir dll olarak hazýrlýyorum..ve exem her açýldýðýnda bir güncelleme olup olmadýðýný benim server ýma soruyor..eðer var dersem güncellemeyi geliyor benim sunucumdan
+dll i alýp application domain içine yani uygulamanýn kurulu olduðu dizine koyuyor.. exe açýlýrken de o dizinin tüm dll dosyalarýný tarayýp reflaction kullanarak dll leri runtýme da
+uygulamanýn içerisine port ediyor.. uygulama açýlýrken yeni özellikleriyle beraber açýlmýþ oluyor.. bu yöntemlerden bir tanesi.. diðeri setup dosyasý indirmek.. 
+form1 sonuç olarak exe dosyasý içerisinde.. form1 üzerinde yaptýðýmýz deðiþiklikleri güncelleyebilir miyiz bu þekilde?
+
+biz neden bu kadar çok katmanla çalýþýyoruz ? 
+kodlarýn daha temiz ve düzenli olmasý için. projenin ne projesi olduðu henüz belli deðil.. bu bir ERP Projesi,hastane takip projesi
+yada aklýna gelecek herhangi birþey olabilir.. bizim yoðunlaþtýðýmýz taraf daha çok iþin arka tarafýnda çalýþan framework u.. yani kendimize bir framework geliþtirdik burda .. bundan sonra yeni
+bir windows uygulamasý baþlatýrken daima bunu kullanarak baþlayabilicez.. burda da amacýmýz katmanlý bir mimari ile katmanlar arasýnda yine farklý tasarým desenleri ve yaklaþýmlar
+kullanarak baðýmlýlýðý en aza indirerek çalýþmak.. neden ? çünkü ben bugün uygulamam içerisinde entityframework ü kullanýyorum ama yarýn nhibernate i kullanmak isteyebilirim.. bundan
+diðer katmanlar etkilenmesin istiyorum.. gibi durumlarýn hepsini bana rahatlýkla saðlayabilcek bir yapý geliþtirdim.. ayrýca uygulama üzerine ben yeni bir özellik eklemek istediðimde de 
+en az kodu yazark bunu nasýl ekleyebilirim yada birþeyleri en az kod sarfiyatýyla nasýl deðiþtirebiilrim tarafýna yoðunlaþarak böyle bir framework geliþtirdik..
+katmanlý mimari kullanýyoruz çünkü kodlarýmýz daha okunabilir.. katmanlý mimariyi kullanarak böyle bir yapý inþa ettik çünkü yeni bir þey eklemek çýkarmak yada deðiþtirmek istediðimde
+çok daha rahat yapabiliyorum bunu, uygulamanýn tamamý etkilenmiyor ,min katman etkilenerek deðiþtirebiliyorum.. mesela ben bunu ado.net e cevirmek istesem dataaccess tarafýnda deðiþiklik yapmam
+yeterli.. geriye kalan katmanlarda çok deðiþiklik yapmama hiç gerek kalmýcak.. katmanlý mimarinin farklý bir avantajýda þu..burada benim exe dosyamýn boyutu çok küçük..winapp dosyasýndaki
+bin-debug dosyasýnda exe dosyamýn boyutu 9kb.. diðer bütün class library leri içersine koyduðum zaman toplamda 5.58 mb yapýyor yani ben bunlarý katmanlara ayýrmayýp tek bir exe yapsaydým
+demek ki 5.58 mb lik bir exe dosyam olucaktý.. böyle bir exe yi hiç kimse istemez. runtime da ihtiyac duyulan sýnýflarýn örnekleri türetilerek çalýþtýðý için benim uygulamam artýk çok daha hýzlý ve 
+ve performanslý çalýþabiliyor.. çoklu çalýþmaya da müsait.. ben winapp le kod geliþtirirken baþkasý dataaccess i bir baþkasý business layer ý da geliþtirebilir.. 
+ben  5.58 mb lik bir exe ye 2 defa týkladýðým anda ýll koduna dönüþtürülen tüm kodlar o anda makine diline çevrilecektir ama benim exe sadece 9 kb ve sadece 9kb lik veriyi binary
+koda cevirecek ve diðer katmanlara ne zaman ihtiyacým olursa o zaman o katmanlarda teker teker binary koda dönüþtürülerek çalýþýlacaktýr..
+benim uygulamamý ilk çalýþtýrdýðýmda form um üzerindeki sadece bu arayüzü görmek için gereken ne varsa onlarý dönüþtürüyor.. ne zamanki product ýn altýndan product listesi dedim o zaman
+gidip diðer katmanlardaki nesneleri oluþturucak.. zamanlar farklý.. zaman içerisinde ihtiyac duydukça ben binary koda dönüþtürülmesini saðlýyorum bu þekilde..
+
+core katmaný neden kullanýlýr ?
+diðer tüm katmanlarýn ortak olarak kullanacaðý en temel yapý taþlarýmýzý barýndýrýyor içinde.. temel
+
+entities katmaný ne iþe yarar? projemizdeki varlýklarýmýz burdadýr
+
+business layer ne yapar? asýl amacý aslýnda bizim uygulamamýzýn arayüzü ile data katmaný arasýnda bir köprü iþlemi görmesi.. böylelikle benim uygulamamýn arayüzü, hiçbir zaman data katmanýn
+da hangi teknolojilerin hangi sýnýflarýn kullanýldýðýn bilmez zaten gerekte duymaz çünkü ben burda eðer bir category listesi çaðýracaksam business katmaný  altýndaki getall metodunu kullanmam
+yeterldir.getall metodunun arka tarafta ne yaptýðý ilgilendirmez..business katmanýndaki CategoryManager altýndaki getall metoduna baktýðýmýzda buda categoryDal ý yani dataaccess 
+içerisindeki categoryDal ý kullanmýþ fakat ben gelip burdan (categoryManager) categoryDal ý kullanmada þu categoryDal ý kullan deseydim yani entityframework le iþlem yapan categoryDal
+ý kullanmada linq to sql ile iþlem yapan categoryDal ý kullan, yada nhibernate ile olaný kullan .. windows bunu bilir mi farkýna varabilir mi yada win katmanýnýn çalýþmasýna engel bir durum olur mu?
+olmaz..çünkü win katmanýnýn tek bildiði þey , win sadece burdan categoryDal çaðrýldýðýný biliyor ve bu categoryDal ýn LÝst<Category> döneceðini biliyor.. bana List<Category> yi versin bu getall
+metodu da arkada ne yaparsa yapsýn gibi bir bakýþ açýsý var win in..bu ne demek ? sizin winapp projeniz ile dataaccess projeniz arasýnda hiçbir baðýmlýlýk olmadýðý anlamýna geliyor.. 
+dataccess i siz silseniz adýný deðiþtirseniz baþka bir yapý kursanýz win bundan hiçbir þekilde etkilenmez.. çünkü win projesi sadece business layerdaki CategoryManager sýnýfýnýn içinde bulunan
+hatta CategoryManager bile deðil ICategoryService im içinde bulunan getall metodunu kullanýyor baþka hiç bir þeye ihtyiacý yok..
+
+bu projeler telefonlarda çalýþýr mý? 
+winapp haric diðerleri telefonlarda çalýþabilir ama üzerinde birazcýk deðiþiklik yapmamýz gerekiyor.. bu þekilde .net framework library si deðilde
+.net standart library si olarak deðiþtirmemiz lazým bunlarý.. winapp zaten exe olduðu için çalýþmaz ama geriye kalanlarýn hepsini pratik bir þekilde xamarin tarafýndan telefonlar
+üzerine geçirebilirsiniz.. web de hiçbir deðþiklik yapmadan çalýþtýrabilirsiniz bu seçtiðim library leri. mesela siz bunu þimdi wn uygulamasý yaptýnýz, web uygulamasý yapmak için
+yapmanýz gereken tek þey buraya bir MVC projesi ekleyip business katmanýný referanslarýnada eklemek..
+sadece windows phone larda mý oluyr ? hayýr android ve ýos a da yazabiliyosunuz
+artýk xamarin ile birlikte ,c# kodlayýp windows phone , android , ýos taraflarýna cross platform native uygulamalar geliþtirebiliyosun.. 
+
+coder.dataaccess altýndaki abstract klasörü içerisindeki ICategoryDAL interface i neden var ? 
+dataaccess ile business layer ý haberleþtirebilmem içn ICategoryDAL ý kullanýyorum.. .direk
+dataaccess min içerisinde yazmýþ olduðum EFCategoryDAL ý business katmanýnda kullanmadým.. business layer daki categoryManager sýnýfý parametre olarak ICategoryDAl alýyor.. burda
+halbuki iþi yapan EFCategoryDAl.. ama EFCategoryDAL ý almýorum.. bunun özel bir sebebi var.. ben bugün EFCategoryDAL ý kullanýrým, yarýn entityframework deðilde linq to sql için
+yazmýþ olduðum bir categorydal sýnýfý vardýr onu kullanabilirim.. bu deðiþkenliði rahatlýkla burda deðiþtirdiðimde business katmaný etkilenmesin diye ICategoryDAL geliþtirilmiþtir..
+business katmanýna baktýðýnýz zaman tek bildiði þey ICategorDAl sözleþmesindeki sorumluluklarý yerine getiren bir sýnýf buraya gelicek..
+böylelikle ben dataacess layer daki entityframework e yeni bir class ekleyip LinqCategoryDAL isminde yeni bir sýnýf ekleyip bunuda yine ICategoryDAL dan implement edebilirim. bunun sonunda
+sorunsuz bir þekilde business katmaný artýk bunu kullanmaya baþlayabilir
+
+
+IEntityRepository sýnýfýnýn görevide  uygulamamýz içerisinde herhangi bir repository sýnýfý yazmak istiyosak illaki burdan implement edilmesini istiyoruz.. böylece repository lerin hepsinde
+add update delete gidi operasyonlar olucak bunu garanti altýna alýyoruz..
+
+

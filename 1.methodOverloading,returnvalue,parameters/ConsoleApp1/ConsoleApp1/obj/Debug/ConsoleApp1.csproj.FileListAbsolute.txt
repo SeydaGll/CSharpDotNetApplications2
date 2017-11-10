@@ -1,0 +1,6 @@
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\DragonGTX1050\Desktop\04082017 mvc\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

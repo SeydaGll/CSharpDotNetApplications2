@@ -1,0 +1,37 @@
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Windows.WinAppUI.exe.config
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Windows.WinAppUI.exe
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Windows.WinAppUI.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Business.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Entity.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Core.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Business.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Entity.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Core.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.csprojResolveAssemblyReference.cache
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.Form1.resources
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.Properties.Resources.resources
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.csproj.GenerateResource.Cache
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.exe
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.MockDataBase.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.MockDataBase.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.FrmAddPerson.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Windows.WinAppUI.exe.config
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Windows.WinAppUI.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Windows.WinAppUI.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Business.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Entity.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.MockDataBase.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Core.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Business.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Entity.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.MockDataBase.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\bin\Debug\Ders.Core.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.Form1.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.FrmAddPerson.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.Properties.Resources.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.csproj.GenerateResource.Cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Windows.WinAppUI\obj\Debug\Ders.Windows.WinAppUI.pdb

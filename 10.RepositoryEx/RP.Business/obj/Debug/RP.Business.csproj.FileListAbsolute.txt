@@ -1,0 +1,17 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Business.dll.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Business.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Business.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\EntityFramework.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Data.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Data.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Data.dll.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\EntityFramework.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\obj\Debug\RP.Business.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\obj\Debug\RP.Business.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\obj\Debug\RP.Business.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\obj\Debug\RP.Business.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Entity.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Entity.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\RepositoryEx\RP.Business\bin\Debug\RP.Entity.dll.config

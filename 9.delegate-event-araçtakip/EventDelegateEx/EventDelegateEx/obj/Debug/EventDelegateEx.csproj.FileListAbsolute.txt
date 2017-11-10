@@ -1,0 +1,10 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\bin\Debug\EventDelegateEx.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\bin\Debug\EventDelegateEx.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\bin\Debug\EventDelegateEx.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.Form1.resources
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.Properties.Resources.resources
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.csproj.GenerateResource.Cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.csproj.CoreCompileInputs.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\EventDelegateEx\EventDelegateEx\obj\Debug\EventDelegateEx.pdb

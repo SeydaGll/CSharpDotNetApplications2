@@ -1,0 +1,23 @@
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.Business.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.Business.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\obj\Debug\Ders.Business.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\obj\Debug\Ders.Business.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.Core.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.Entity.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.MockDataBase.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.Core.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.Entity.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\bin\Debug\Ders.MockDataBase.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Business\obj\Debug\Ders.Business.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.Business.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.Business.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.Core.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.Entity.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.MockDataBase.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.Core.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.Entity.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\bin\Debug\Ders.MockDataBase.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\obj\Debug\Ders.Business.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\obj\Debug\Ders.Business.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\obj\Debug\Ders.Business.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Business\obj\Debug\Ders.Business.pdb

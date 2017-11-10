@@ -1,0 +1,13 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\FirstEFApp.exe.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\FirstEFApp.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\FirstEFApp.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\EntityFramework.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\EntityFramework.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\obj\Debug\FirstEFApp.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\obj\Debug\FirstEFApp.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\obj\Debug\FirstEFApp.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\obj\Debug\FirstEFApp.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\obj\Debug\FirstEFApp.Migrations.init.resources
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\FirstEFApp\FirstEFApp\obj\Debug\FirstEFApp.csproj.GenerateResource.Cache

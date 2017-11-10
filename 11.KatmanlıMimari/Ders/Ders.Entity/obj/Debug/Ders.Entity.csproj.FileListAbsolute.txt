@@ -1,0 +1,15 @@
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\bin\Debug\Ders.Entity.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\bin\Debug\Ders.Entity.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\bin\Debug\Ders.Core.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\bin\Debug\Ders.Core.pdb
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\obj\Debug\Ders.Entity.csprojResolveAssemblyReference.cache
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\obj\Debug\Ders.Entity.dll
+C:\Users\abircan\Desktop\150617 CSharp\Ders\Ders.Entity\obj\Debug\Ders.Entity.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\bin\Debug\Ders.Entity.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\bin\Debug\Ders.Entity.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\bin\Debug\Ders.Core.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\bin\Debug\Ders.Core.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\obj\Debug\Ders.Entity.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\obj\Debug\Ders.Entity.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\obj\Debug\Ders.Entity.dll
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\Ders\Ders.Entity\obj\Debug\Ders.Entity.pdb

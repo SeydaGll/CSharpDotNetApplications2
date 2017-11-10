@@ -1,0 +1,10 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\bin\Debug\AracTakip.exe.config
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\bin\Debug\AracTakip.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\bin\Debug\AracTakip.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.Form1.resources
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.Properties.Resources.resources
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.csproj.GenerateResource.Cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.exe
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\delegate-event-araçtakip\AracTakip\AracTakip\obj\Debug\AracTakip.pdb

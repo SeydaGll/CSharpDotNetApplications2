@@ -1,0 +1,6 @@
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\GenericList\GenericList\bin\Debug\GenericList.exe.config
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\GenericList\GenericList\bin\Debug\GenericList.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\GenericList\GenericList\bin\Debug\GenericList.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\GenericList\GenericList\obj\Debug\GenericList.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\GenericList\GenericList\obj\Debug\GenericList.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\GenericList\GenericList\obj\Debug\GenericList.pdb

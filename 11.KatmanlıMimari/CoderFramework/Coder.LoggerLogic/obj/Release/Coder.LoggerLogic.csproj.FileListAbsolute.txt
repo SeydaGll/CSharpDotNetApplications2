@@ -1,0 +1,6 @@
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.LoggerLogic\bin\Release\Coder.LoggerLogic.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.LoggerLogic\bin\Release\Coder.LoggerLogic.pdb
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.LoggerLogic\obj\Release\Coder.LoggerLogic.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.LoggerLogic\obj\Release\Coder.LoggerLogic.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.LoggerLogic\obj\Release\Coder.LoggerLogic.dll
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\17.10.17katmanlıMimari\CoderFramework\Coder.LoggerLogic\obj\Release\Coder.LoggerLogic.pdb

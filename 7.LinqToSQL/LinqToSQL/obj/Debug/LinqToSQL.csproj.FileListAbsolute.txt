@@ -1,0 +1,13 @@
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\bin\Debug\LinqToSQL.exe.config
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\bin\Debug\LinqToSQL.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\bin\Debug\LinqToSQL.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.csprojResolveAssemblyReference.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.Form1.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.Properties.Resources.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.csproj.GenerateResource.Cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.exe
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.pdb
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.Form2.resources
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.csproj.CoreCompileInputs.cache
+C:\Users\DragonGTX1050\documents\visual studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.Form3.resources
+C:\Users\DragonGTX1050\Documents\Visual Studio 2017\Projects\LinqToSQL\LinqToSQL\obj\Debug\LinqToSQL.Form4.resources

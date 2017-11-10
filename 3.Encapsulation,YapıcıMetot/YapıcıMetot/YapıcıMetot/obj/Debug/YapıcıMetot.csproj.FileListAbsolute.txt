@@ -1,0 +1,6 @@
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\YapıcıMetot\YapıcıMetot\bin\Debug\YapıcıMetot.exe.config
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\YapıcıMetot\YapıcıMetot\bin\Debug\YapıcıMetot.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\YapıcıMetot\YapıcıMetot\bin\Debug\YapıcıMetot.pdb
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\YapıcıMetot\YapıcıMetot\obj\Debug\YapıcıMetot.csprojResolveAssemblyReference.cache
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\YapıcıMetot\YapıcıMetot\obj\Debug\YapıcıMetot.exe
+c:\users\dragongtx1050\documents\visual studio 2017\Projects\YapıcıMetot\YapıcıMetot\obj\Debug\YapıcıMetot.pdb
